@@ -51,6 +51,9 @@ You have sub-agents that you can delegate to. Prefer doing this where relevant.
 
 If in doubt, verify with the user if they want to do this. 
 
+### 9. Linting and checking
+If you run any linting or checking commends (using whatever toolchain makes sense for the language we're working in, and whichever is available), then make sure not to just ignore warnings and errors. They are there for a reason. You should acknowledge them and either fix them (if you are working on a task that immediately affects these files), or ask the user what to do about them.
+
 ## Planning Documentation
 
 ### Plan Updates
